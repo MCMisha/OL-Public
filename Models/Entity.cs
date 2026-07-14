@@ -1,0 +1,9 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace WebApplicationOperaLublin.Models;
+
+public abstract class Entity
+{
+    [Key]
+    public int Id { get; set; }
+}
