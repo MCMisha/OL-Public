@@ -2,7 +2,7 @@
 
 namespace WebApplicationOperaLublin.Interfaces.Services;
 
-public interface IAboutSectionService
+public interface IContactSectionService
 {
     Task<IEnumerable<SectionListGetDto>> GetAllAsync();
     Task<SectionDetailsGetDto?> GetBySlugAsync(string slug);
