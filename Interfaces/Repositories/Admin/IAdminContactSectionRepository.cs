@@ -1,0 +1,9 @@
+﻿using WebApplicationOperaLublin.Models;
+
+namespace WebApplicationOperaLublin.Interfaces.Repositories.Admin;
+
+public interface IAdminContactSectionRepository : IGenericRepository<Section>
+{
+    Task<Section?> GetBySlugAsync(string slug);
+    Task<Section> SetMainAsync(Section section);
+}
