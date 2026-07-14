@@ -22,7 +22,7 @@ A modern ASP.NET Core Web API developed as part of a master's thesis. This proje
 - Entity Framework Core
 - PostgreSQL
 - JWT Bearer Authentication
-- Swagger / Scalar
+- Swagger
 - Dependency Injection
 
 ## Architecture
@@ -88,12 +88,6 @@ API documentation will be available at:
 
 ```
 https://localhost:xxxx/swagger
-```
-
-or
-
-```
-https://localhost:xxxx/scalar
 ```
 
 ## Main Functionalities
