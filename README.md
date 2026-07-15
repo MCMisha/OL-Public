@@ -60,7 +60,7 @@ Migrations/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/OL-Back.git
+git clone https://github.com/MCMisha/OL-Back.git
 ```
 
 ### Configure the application
