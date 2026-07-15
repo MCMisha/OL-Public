@@ -47,8 +47,7 @@ Entity Framework Core
 
 ```
 Controllers/
-DTOs/
-Entities/
+Models/
 Exceptions/
 Middleware/
 Repositories/
